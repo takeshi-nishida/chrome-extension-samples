@@ -1,0 +1,15 @@
+{
+  "name": "Tabelog counter",
+  "description": "As a sample how to use chrome.storaage, this extension counts how many time you visited tabelog",
+  "version": "0.1",
+  "manifest_version": 2,
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://tabelog.com/*"],
+      "js": ["content_script.js"]
+    }
+  ]
+}
