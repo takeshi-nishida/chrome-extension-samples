@@ -1,0 +1,4 @@
+/* class="list-rst__tpoint" が指定されている要素をすべて非表示にする */
+.list-rst__tpoint {
+  display: none;
+}

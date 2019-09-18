@@ -1,0 +1,13 @@
+{
+  "name": "Sample Tabelog Extension",
+  "description": "Remove Unnecessary Parts from Tabelog",
+  "version": "0.1",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://tabelog.com/*"],
+      "js": ["content_script.js"],
+      "css": ["content_style.css"]
+    }
+  ]
+}
