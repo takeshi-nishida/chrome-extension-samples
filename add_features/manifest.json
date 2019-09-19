@@ -1,0 +1,14 @@
+{
+  "name": "Sample Twitter Extension",
+  "description": "Adds Playful Extras to Twitter",
+  "version": "0.1",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "js": ["content_script.js"],
+      "css": ["content_style.css"]
+    }
+  ],
+  "web_accessible_resources": ["module.html","trophy.svg"]
+}

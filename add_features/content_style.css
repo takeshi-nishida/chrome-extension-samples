@@ -1,0 +1,27 @@
+/* Apply sepia filter to all images */
+img{
+  filter: sepia(100%) !important;
+}
+
+svg.mysvg{
+  color: white;
+  fill: currentColor !important;
+  width: 24px;
+  height: 24px;
+  opacity: 1;
+}
+
+#target {
+  flex-flow: row wrap;
+  padding: 8px;
+  background-color: white;
+  color: black;
+  border-radius: 12px;
+}
+
+#target > a {
+  display: inline-block;
+  max-height: 48px;
+  max-width: 48px;
+  margin: 4px;
+}
