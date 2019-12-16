@@ -1,0 +1,14 @@
+{
+  "name": "Sample TweetDeck Extension",
+  "description": "Adds Playful Extras to TweetDeck (which has easier HTML/CSS compared to Twitter)",
+  "version": "0.1",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://tweetdeck.twitter.com/*"],
+      "js": ["content_script.js"],
+      "css": ["content_style.css"]
+    }
+  ],
+  "web_accessible_resources": ["module.html","trophy.svg"]
+}

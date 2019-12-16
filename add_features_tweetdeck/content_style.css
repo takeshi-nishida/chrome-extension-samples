@@ -1,0 +1,12 @@
+section:nth-child(2n+1) article{
+  background-color: #d6f4ff !important;
+}
+
+.shrinked{
+  height: 91px;
+  overflow: hidden;
+}
+
+.target{
+  padding: 8px;
+}
