@@ -9,6 +9,5 @@
       "js": ["content_script.js"],
       "css": ["content_style.css"]
     }
-  ],
-  "web_accessible_resources": ["module.html","trophy.svg"]
+  ]
 }
